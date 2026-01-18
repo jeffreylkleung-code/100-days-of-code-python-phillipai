@@ -1,6 +1,19 @@
 Understanding variables and data types
 FreeCodeCamp
 
+Topics completed today 18/01/26
+- Python Basics
+    - Introduction to Python
+        - What Is Python and What Are Some Common Uses in the Industry?
+        - How Do You Install, Configure and Use Python in Your Local Environment?
+    - Understanding Variables and Data Types
+        - How Do You Declare Variables and What Are Naming Conventions to Name Variables?
+        - How Does the Print Function Work?
+        - What Are Common Data Types in Python and How Do You Get the Type of a Variable?
+    - Introduction to Strings 
+        - What Are Strings and What Is String Immutability?
+
+
 Declaring a variable
 name = 'Jeffrey'
 - Cannot start with a number
@@ -25,7 +38,7 @@ data types
 - integer: Whole numbers; Integer_var = 2
 - float: Number with decimal point; Float_var = 2.2
 - boolean: true or false; Boolean_var = true
-- none: litterally nothing, absence of a value; None_var = none
+- none: litterally nothing, absece of a value; None_var = none
 
 Collections data type
 These data types can contain a collection of elements or variables
@@ -47,3 +60,39 @@ isinstance function
     isinstance('Hello world', str) 
     - outputs True
 
+
+-----------------------------------------------------------
+
+Strings
+
+quote = 'She said, \"hello world\"
+- use backslash (\) before a quotation if the string contains a quotation
+- ensure that it uses the opposite kind of quotation
+
+in operator
+- checks if a string contains the specific characters
+str_var = 'Hello world!'
+print('ello" in str_var)
+- outputs True
+
+len() function
+- checks the length of a string, includes spaces
+str_var = 'Hello world!'
+print(len(str_var))
+- 11
+
+
+
+index
+- the position of a character in a string, starts at 0
+str_var = 'Hello world!'
+print(str_var[0])
+- H
+print(str_var[10])
+- d
+
+- this also means that a string is kind of like a list 
+- it can be used with negative indexs, meaning it sorts from last to first
+
+print(str_var[-1])
+- d
